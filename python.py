@@ -4,7 +4,7 @@ import pickle
 import os
 
 #Load model yang sudah dibuat dari Jupyter Notebook
-model_path = 'D:\Documents\SEMESTER 5\PMPM\Minggu 2'
+model_path = '.'
 model=os.path.join(model_path, 'GBT_heartDisease_model.pkl')
 
 with open(model, 'rb') as f:
